@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+h1, h2, h3, h4 {
+    color: blue;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+
+.justified {
+margin: auto;
+}
+

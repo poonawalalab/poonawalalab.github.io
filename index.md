@@ -3,8 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-
-# Poonawala Lab Resources
 Welcome to the Poonawala Lab Resources website. This website contains a list of reviews of papers, and some resources for new and current members to refer to.
 
 The research website is hosted [here](https://web.engr.uky.edu/~hap/).

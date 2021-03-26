@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Poonawala Lab
-author: Hasan A. Poonawala
+title: Poonawala Lab Resources
+author: Poonawala Lab
 email: hasan.poonawala@uky.edu
-description: Poonawala Lab Resources Website.
+description: Website hosting reviews and tutorials
 # to generate files to place on UK server:
 # baseurl: "/~hap" # the subpath of your site, e.g. /blog
 # url: "https://web.engr.uky.edu" # the base hostname & protocol for your site, e.g. http://example.com

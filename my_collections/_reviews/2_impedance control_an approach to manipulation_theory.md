@@ -9,6 +9,7 @@ layout: page
 
 ### Broad area/overview
 Manipulation fundamentally requires the manipulator to be mechanically coupled to the object being manipulated; the manipulator may not be treated as an isolated system. in this paper an approach is developed by considering the mechanics of interaction between physical systems. it was shown that control of position or force alone is inadequate; control of dynamic behavior is also required. It is shown that as manipulation is a fundamentally nonlinear problem, the distinction between impedance and admittance is essential, and given the environment contains inertial objects, the manipulator must be an impedance. A generalization of a Norton equivalent network is defined for a broad class of nonlinear manipulators which separates the control of motion from the control of impedance while preserving the superposition properties of the Norton network.
+{% katexmm %}
 ### Notation
 * $W$: Mechanical work
 * $F$: Force
@@ -22,7 +23,7 @@ Manipulation fundamentally requires the manipulator to be mechanically coupled t
 * $Z_n$: Nonnodic impedance
 * $X_o$: virtual position
 * $V_o$: virtual velocity
-
+{% endkatexmm %}
 
 ### Specific Problem
 This paper has presented a unified approach to manipulation termed "impedance control." Because by its nature manipulation requires mechanical interaction between systems, the focus of the approach is on the characterization and control of interaction. By assuming that no control algorithm may make a physical system behave like anything other than a physical system the network concepts of bond graphs may be applied to describe the way the controller may modify the behavior of the manipulator.

@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Poonawala Lab Resources
-author: Poonawala Lab
+title: Poonawala Lab
+author: Hasan A. Poonawala
 email: hasan.poonawala@uky.edu
-description: Website hosting reviews and tutorials
+description: Poonawala Lab Website.
 # to generate files to place on UK server:
 # baseurl: "/~hap" # the subpath of your site, e.g. /blog
 # url: "https://web.engr.uky.edu" # the base hostname & protocol for your site, e.g. http://example.com
@@ -33,9 +33,15 @@ plugins:
   - jekyll-katex
 collections_dir: my_collections
 collections:
-  reviews:
+  posts:
+    output: false
+  rtopics:
     output: true
-  topics:
+  profiles:
+    output: true
+  papers:
+    output: true
+  courses:
     output: true
 
 

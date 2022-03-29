@@ -1,5 +1,5 @@
 ---
-class: sub
+class: journal
 venue: Manufacturing Letters
 title: AI-enabled Dynamic Finish Machining Optimization for Sustained Surface Integrity
 author: Schoop, J.; Poonawala, H.A.; Adeniji, D.; Clark, B.;

@@ -27,6 +27,17 @@ permalink: /people/
 {% endfor %}
 </div>
 
+<h3>MS Researchers:</h3>
+<div class = "flex-container">
+{% for item in site.profiles %}
+{% if item.position == "ms" %}
+  {% if item.status == "active" %}
+  <div class = "thumby"><a href="{{ item.url | prepend:site.baseurl | prepend:site.url}}"><img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{ item.thumb}}" width = "170px" height = "170px"><p>{{ item.title }}</p></a> </div>
+  {% endif %}
+{% endif %}  
+{% endfor %}
+</div>
+
 <h3>Undergraduate Researchers:</h3>
 <div class = "flex-container">
 {% for item in site.profiles %}

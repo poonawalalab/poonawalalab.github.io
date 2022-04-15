@@ -114,8 +114,9 @@ Robotics requires comfort with multiple areas, in addition to a core competency.
 
 * [Linear Systems Course by Stephen Boyd](https://stanford.edu/class/ee363/courseinfo.html)
   * Partially taught in ME 645
-* [Robotics Course](https://poonawalalab.github.io/rmc-s21/)
-  * If you are at UK, I recommend Dr. Biyun Xie's course 'EE 599 Introduction to Robotics' course that focuses on kinematics of robotic mechanisms.
+* Control Theory basics: ([youtube](https://www.youtube.com/watch?v=aLlbwk68-tw)) 
+* ME Robotics Course ([website](https://poonawalalab.github.io/rmc-s21/))
+  * If you are at UK, I also recommend Dr. Biyun Xie's course 'EE 599 Introduction to Robotics' course that focuses on kinematics of robotic mechanisms.
 * Machine Learning
   * Read the **introductions** of [this book](https://mlstory.org/) and [this book](
 https://web.stanford.edu/~hastie/Papers/ESLII.pdf).

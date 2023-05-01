@@ -1,9 +1,9 @@
 ---
-title: Brain-Computer Interfacing
+title: Robustness to Classification Errors in Brain-Computer Interfacing
 layout: rtopic
 thumb: emg_wchair2.jpg
 date: 2016-05-01
-status: current
+status: past
 ---
 <h2>Control of assistive devices using brain-computer interfacing</h2>
 

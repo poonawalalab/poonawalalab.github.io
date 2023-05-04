@@ -1,5 +1,6 @@
 ---
 title: Learning Robot Dynamics Models Using Active Learning and Planning
+short_title: Robot Model Learning
 layout: rtopic
 thumb: robot-arm.png
 date: 2018-06-01

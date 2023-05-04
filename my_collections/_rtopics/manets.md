@@ -3,7 +3,7 @@ title: Control of Dynamic Multi-Robot Networks
 layout: rtopic
 thumb: manet.png
 date: 2013-09-01
-status: past
+status: preuk
 ---
 <h2>Control of Dynamic Networks</h2>
 <ul>

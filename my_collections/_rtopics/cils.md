@@ -1,5 +1,6 @@
 ---
 title: Classifiers For Feedback Control
+short_title: Classifiers For Feedback Control
 layout: rtopic
 thumb: l4c.png
 date: 2017-05-01

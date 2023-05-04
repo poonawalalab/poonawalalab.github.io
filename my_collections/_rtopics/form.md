@@ -3,7 +3,7 @@ title: Formation Control
 layout: rtopic
 thumb: formctrl.png
 date: 2010-09-01
-status: past
+status: preuk
 ---
 <h2>Formation Control</h2>
 <div class="flex-container">

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Paper provably correct path-following accepted to IROS 2023 "
-date:   2023-04-07
+date:   2023-06-21
 ---
 
 Our [paper](https://arxiv.org/abs/2303.12182) on provably-correct sensor driven control has been accepted to to IROS 2023 to be held in Detroit, MI. Benton Clark is the lead on this work. 

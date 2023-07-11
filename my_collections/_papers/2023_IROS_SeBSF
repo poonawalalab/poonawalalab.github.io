@@ -1,5 +1,5 @@
 ---
-class: sub
+class: conf
 author: Clark, B.; Hariprasad, V.; Poonawala, H.A.; 
 title: Provably Correct Sensor-driven Path-following for Unicycles using Monotonic Score Functions
 venue: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)

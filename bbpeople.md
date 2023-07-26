@@ -3,7 +3,7 @@ layout: research
 title: People
 permalink: /people/
 ---
-<!---See  <a href="{{site.baseurl | prepend:site.url}}/people/#labopenings"> below </a> for openings.> --->
+See  <a href="{{site.baseurl | prepend:site.url}}/people/#labopenings"> below </a> for openings.> 
 
 
 <h3>Principal Investigator:</h3>
@@ -74,30 +74,22 @@ permalink: /people/
 </ul>
 </div>
 
-<!---
+
 <div id="labopenings">
 <h3> Research Opportunities </h3>
-Our lab is growing and we invite those with interest in robotics research to join us. We seek individuals with knowledge and interest in
-<ul>
-<li> Control of Mechanical Systems </li>
-<li> Machine Learning for Perception and Control </li>
-<li> Hybrid Control Systems</li>
-<li> Correct-by-Construction Control using Formal Methods and Model Checking</li>
-<li> Manipulation and Grasping with Robot Arms </li>
-<li> Planning under Uncertainty: Markov Decision Processes, Partially Observable MDPs, RRT*, etc</li>
-</ul>
+The lab is looking for a research assistant to work on computational control for contact-rich manipulation. The project will implement motion planning algorithms for finding multi-contact paths in the configuration space of a robot-object system, and computational control algorithms based on optimization to find stabilizing controllers for those paths. The project will need strong coding skills and comfort with mathematical optimization. 
 
-To join, send an <a href="mailto:hasan.poonawala@uky.edu"> email </a> to Hasan Poonawala with
+Ideal candidates have experience implementing convex optimization problems in code and motion planning algorithms like RRT*. They will also know how to avoid implementing algorithms inefficiently.
+
+To apply for this opening, send an <a href="mailto:hasan.poonawala@uky.edu"> email </a> to Hasan Poonawala with
 <ul>
 <li> a one-page resume, </li>
-<li> up to three papers or technical reports primarily written by you, and </li>
+<li> up to two papers or technical reports primarily written by you, and </li>
 <li> a transcript. </li>
 </ul>
-<p>
+<!-- <p>
 Preference will be given to candidates with strong records in research/coursework related to mathematics, optimization, control, or robotics. Individuals with significant theoretical or experimental experience are encouraged to apply.</p>
-
- <p>
+<p>
 <h4>Funding opportunities:</h4>
-The lab has support for Ph.D studies beginning Fall 2020, in the form of Research and Teaching Assistantships. Apply as above.</p>
-</di>
---->
+The lab has support for Ph.D studies beginning Fall 2020, in the form of Research and Teaching Assistantships. Apply as above.</p> --->
+</div>

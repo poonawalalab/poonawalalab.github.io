@@ -2,7 +2,7 @@
 title: David Yackzan
 layout: default
 position: ms
-status: active
+status: alum
 thumb: David.jpg
 ---
 <div class="flex-container" >

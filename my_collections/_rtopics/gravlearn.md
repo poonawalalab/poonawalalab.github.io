@@ -4,7 +4,7 @@ short_title: Robot Model Learning
 layout: rtopic
 thumb: robot-arm.png
 date: 2018-06-01
-status: current
+status: past
 ---
 ## Learning Robot Models
 <div class = "justified">

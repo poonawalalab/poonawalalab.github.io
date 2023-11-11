@@ -4,13 +4,13 @@ short_title: Classifiers For Feedback Control
 layout: rtopic
 thumb: l4c.png
 date: 2017-05-01
-status: current
+status: past
 ---
 <h2>Classification and Control</h2>
 
 <div align="center"><img src="{{site.url}}/{{site.baseurl}}/assets/img/l4c.png" alt="Pic" height="226px" width="414px" border="1px solid gray">
 </div>
-<p>We develop models to analyze how the presence of learned controllers in feedback loops affects the latter's performance.
+<p>We develop models to analyze how the presence of learned classifiers in feedback loops affects the latter's performance.
 We work on the following projects in this area:</p>
 <h3>Classifier-in-the-Loop Systems as Hybrid Systems:</h3>
 <p>Controllers for regulation and tracking tasks are usually functions of the state or measurement. A measurement is traditionally a unique value attached to each state of the system, perhaps corrupted by noise. The output of sensors like optical cameras and LIDAR, however, can be rich and complex, and the state may be difficult to extract from them. The richness often comes from the influence of an unknown environment on the measurement. A known mapping from state to measurement is absent for such sensors precluding estimation of the state by traditional methods. </p>

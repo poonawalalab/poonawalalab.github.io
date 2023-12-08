@@ -8,7 +8,7 @@ status: current
 ## Motivation
 Path planning algorithms are highly effective for generating collision free motion. However, they take a few seconds to find plans. In static environments with constant goals, this planning time is not an issue. In environments with moving obstacles or changing goals, the robot will never be able to find and execute a valid plan in time. 
 
-![Reroute Routine]({{site.url}}/{{site.baseurl}}/assets/img/Rerout_Routine.png)
+![Reroute Routine]({{site.url}}/{{site.baseurl}}/assets/img/Reroute_Routine.png)
 
 ## Challenge
 Algorithms like RRT* spend a majority of time in collision checking operations. These checks must be conducted during sampling and tree extension operations. 

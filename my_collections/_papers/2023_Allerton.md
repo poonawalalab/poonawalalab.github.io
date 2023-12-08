@@ -1,5 +1,5 @@
 ---
-class: sub
+class: conf
 author: Samanipour; P.; Poonawala, H.A.; 
 title: Automated Stability Analysis of Piecewise Affine Dynamics Using Vertices
 venue: Allerton Conference

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Paper provably correct path-following accepted to IROS 2023 "
+title:  "Paper on provably correct path-following accepted to IROS 2023 "
 date:   2023-06-21
 ---
 

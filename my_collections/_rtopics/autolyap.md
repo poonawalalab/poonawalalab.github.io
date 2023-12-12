@@ -1,5 +1,5 @@
 ---
-title: Automated Controller Synthesis
+title: Automated Controller Verification And Synthesis
 layout: rtopic
 thumb: autolyap_example.png
 date: 2018-06-01

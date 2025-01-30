@@ -52,13 +52,19 @@ I highly recommend developing a framework for time management that allows you to
 <h3 id="forms">Forms</h3>
 * Purchasing:
   * To facilitate purchasing, we need to provide ME department with either a link (or links) to a readily available object, or a quote.
-  * For each vendor, we should also fill this [purchase order form]({{site.url}}/{{site.baseurl}}/assets/pdf/ME_purchase_order_form.pdf).
-    * Fill the form as best as you can.
-    * For the vendor, focus on name and website.
-    * Fill in the description and justification of purchase.
-  * This order form needs to be attached to an email sent to me that contains the links.
+  * For **each vendor**, we should also fill this [Jotform](https://form.jotform.com/222213313268143){:target="_blank"}.
     * One order form per vendor (eg. Amazon, McMaster-Carr,Digi-Key).
-    * The email must contain links to the items to be purchased, or to a shopping cart if obtaining multiple items from a single place.
+  * Instructions:
+    * Enter Form Prepares's Name: You would most likely choose the grad student/post doc/temp option
+    * This purchase will be charge to: Other account
+    * Are you the PI/ responsible: NO
+    * Who is the PI? : Hasan Poonawala (should be in the drop down list)
+    * PI email: hasan.poonawala@uky.edu
+    * Urgent purchase? NO (unless we discussed)
+    * Grant ending in 90 days? NO (unless we discussed this)
+    * Business justification: Supports \[SPONSOR NAME eg. NASA/NSF\]-supported research 
+    * Vendor: company you are buying from NOTE: Each jotform must have a single source/vendor. Like all items from Digikey, or all from McMaster, etc
+    * Delivery: (Choose ground, 2 day is fine for certain items, you can check with me)
 
 <h2  id="lab_manuscripts">Preparing Manuscripts </h2>
 A significant portion of your output during graduate school will consist of research articles published in conference proceedings and journals. Preparing manuscripts for submission can be straightforward or tedious, depending on the amount of planning involved from the start of the research project.

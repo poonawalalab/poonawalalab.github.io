@@ -71,7 +71,7 @@ A significant portion of your output during graduate school will consist of rese
 <h3 id = " lab_paperplanning"> General Planning </h3>
 [Devi Parikh](https://medium.com/@deviparikh/planning-paper-writing-553f497e8839) has a good framework for planning to finish a high-quality research paper before a targeted deadline.
 <h3 id="lab_typesetting"> Typesetting Software </h3>
-We exclusively use <a href="https://www.ctan.org" >TeX</a> for preparing manuscripts. Your progress will require gaining competency in creating documents using TeX, and doing so efficiently.
+We exclusively use <a href="https://www.ctan.org" >TeX</a> for preparing manuscripts. Your progress will require gaining competency in creating documents using TeX, and doing so efficiently. We are exploring use of [Typst](https://github.com/typst/typst). 
 
 <h3 id="lab_matheqns" > Mathematical Equations </h3>
 Some good pointers on writing math well can be found in the links below.
@@ -113,8 +113,8 @@ Robotics requires comfort with multiple areas, in addition to a core competency.
     * Basic: 'Introduction to Analysis', by William R. Wade. Topics:
     * Advanced: 'Introductory Real Analysis' by A. N. Komlmogorov
 * Optimization.
-  * There are many optimization problems and methods to solve them. Like many other roboticists, we focus on a subset for which there are reliable algorithms:
-    * [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/). Read this book in detail.  
+  * [MAE 647 System Optimization I](https://poonawalalab.github.io/opt-slides/) covers constrained and unconstrained optimization. 
+  * [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/). Read this book in detail.  
 
 <h3 id="enggstudy">Engineering</h3>
 
@@ -123,10 +123,11 @@ Robotics requires comfort with multiple areas, in addition to a core competency.
 * Control Theory basics: ([youtube](https://www.youtube.com/watch?v=aLlbwk68-tw)) 
 * ME Robotics Course ([website](https://poonawalalab.github.io/rmc-s21/))
   * If you are at UK, I also recommend Dr. Biyun Xie's course 'EE 599 Introduction to Robotics' course that focuses on kinematics of robotic mechanisms.
+  * Many robotics algorithms rely on numerical optimization, convex or otherwise. See above.  
 * Machine Learning
   * Read the **introductions** of [this book](https://mlstory.org/) and [this book](
 https://web.stanford.edu/~hastie/Papers/ESLII.pdf).
   * Complete Andrew Ng's [course](https://www.coursera.org/learn/machine-learning) that introduces concepts
-  * For coding skills, go through [Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python) (copy in lab).
+  * For coding skills, go through [Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python) or this [short course](https://github.com/poonawalalab/dlcourse).
   * For an online course, [this intro to DL]( http://introtodeeplearning.com).
   * This [deep learning textbook](https://www.deeplearningbook.org/) is in the lab.

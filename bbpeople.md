@@ -3,8 +3,7 @@ layout: research
 title: People
 permalink: /people/
 ---
-See  <a href="{{site.baseurl | prepend:site.url}}/people/#labopenings"> below </a> for openings.> 
-
+<!-- See  <a href="{{site.baseurl | prepend:site.url}}/people/#labopenings"> below </a> for openings. --> 
 
 <h3>Principal Investigator:</h3>
 <div class = "flex-container">

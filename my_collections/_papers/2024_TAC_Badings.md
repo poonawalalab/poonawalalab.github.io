@@ -1,5 +1,5 @@
 ---
-class: sub
+class: none
 author: Badings, Thom; Poonawala, Hasan A.; Stoelinga, Marielle; Jansen, Nils
 title: Correct-by-construction reach-avoid control of partially observable linear stochastic systems
 venue: IEEE Transactions on Automatic Control

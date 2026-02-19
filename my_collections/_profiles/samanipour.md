@@ -2,7 +2,7 @@
 title: Pouya Samanipour
 layout: default
 position: phd
-status: active
+status: alum
 thumb: Pouya_S.jpg
 ---
 <div class="flex-container" >

@@ -6,10 +6,16 @@ permalink: /research/
 
 ## Research Overview
 
-Our lab works on developing theory and technologies for robot control. We extend traditional robot control design methods by incorporating machine learning using systematic approaches. We emphasize learning-based control strategies that are provably correct. Our members acquire expertise in topics from control systems, robotics, optimization, and machine learning. We currently focus on the following areas:
-1. Contact-rich manipulation
+<p align="justify">
+The Poonawala Lab works on assured learned controllers, with a particular focus on end-to-end systems where raw sensor data drives control decisions directly. 
+We develop the stability conditions, data principles, and certification methods — rooted in dynamics and control theory — that make reliability in these systems something that can be reasoned about rather than merely observed.
+</p>
+
+We currently focus on the following applications:
+1. Learning controllers for contact-rich manipulation
+1. End-to-end controllers for navigation
+1. Learning-enabled control for defect-free Additive Manufacturing 
 1. Verification of learned neural network controllers
-1. Navigation without localization
 
 ## Research Projects
 

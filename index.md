@@ -5,9 +5,13 @@
 layout: home
 ---
 <div>
-<p align="justify">Welcome to the Poonawala Lab website. Our lab aims to develop automated algorithms that robots use to design provably safe controllers for unseen environments using data, without human intervention. Current algorithms that provide all three features (provably safe, data-driven, human-oversight-free) in their controllers are highly application-specific. We believe that expertise in machine learning, dynamics, control theory, and artificial intelligence is critical to developing more general algorithms.</p>
+<p align="justify">
+The Poonawala Lab works on assured learned controllers of autonomous systems, with a particular focus on end-to-end systems where raw sensor data drives control decisions directly. 
+We develop the stability conditions, data principles, and certification methods — rooted in dynamics and control theory — that make reliability in these systems something that can be reasoned about rather than merely observed.
+We apply our methods to autonomous ground robots, robotic manipulation, and manufacturing process control. 
+</p>
 
-<p>Our current work focuses on robot navigation and contact-rich manipulation. More information can be found on our <a href="{{site.baseurl | prepend:site.url}}/research/" > research </a> page.</p>
+<p>More information can be found on our <a href="{{site.baseurl | prepend:site.url}}/research/" > research </a> page.</p>
 
 </div>
 ![Reroute Routine]({{site.url}}/{{site.baseurl}}/assets/img/homefig.png)

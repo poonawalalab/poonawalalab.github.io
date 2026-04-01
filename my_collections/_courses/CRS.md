@@ -8,7 +8,7 @@ syllabus: CRS_S19_syllabus.pdf
 ---
 
 #### Course Website
-Located [here](https://poonawalalab.github.io/rmc-s21/)
+Located [here](https://poonawalalab.github.io/robotics-course/)
 
 <h4>Course Description:</h4>
 <p> {{page.description }} </p>

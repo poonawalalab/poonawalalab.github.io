@@ -11,6 +11,8 @@ The Poonawala Lab works on assured learned controllers, with a particular focus 
 We develop the stability conditions, data principles, and certification methods — rooted in dynamics and control theory — that make reliability in these systems something that can be reasoned about rather than merely observed.
 </p>
 
+**Approach**: Assurances rely on a model of what will happen under the proposed controller. For end-to-end controllers, a full model must predict the sensor reading given the world state; a fairly challenging task in many environments. Instead of predicting the exact sensor inputs, we reconcile abstract properties of the data-generating process and connect them with new analysis methods. For example, we show that 2D LiDAR readings of convex objects always produce a convex relationship between the lidar returns (distance) versus lidar angle, no matter where the object is relative to the robot. This convexity-in-all-poses is enough to establish collision avoidance behaviors for any convex object under a suitable controller; we don't need to predict the exact LiDAR reading produced by an object. 
+
 We currently focus on the following applications:
 1. Learning controllers for contact-rich manipulation
 1. End-to-end controllers for navigation

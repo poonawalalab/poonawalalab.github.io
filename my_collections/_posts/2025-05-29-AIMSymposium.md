@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI in Manufacturing Sumposium"
+title: "AI in Manufacturing Symposium"
 date: 2025-05-29
 ---
 

@@ -16,7 +16,7 @@ h1, h2, h3, h4 {
 
 
 .justified {
-margin: auto;
+  margin: auto;
 }
 
 .post-meta {
@@ -25,7 +25,7 @@ margin: auto;
 }
 
 .post-list > li {
-  margin-bottom: 1.5em; // reduce from default ~2em
+  margin-bottom: 0.75em; // reduce from default ~2em
 }
 
 .post-link {

@@ -16,9 +16,7 @@ layout: default
       {%- for post in posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ post.date | date: date_format }}<a class="post-link" href="{{ post.url | absolute_url }}">
-            {{ post.title | escape }}
-          </a>
+        {{ post.date | date: date_format }}<a class="post-link" href="{{ post.url | absolute_url }}"> {{ post.title | escape }} </a>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}

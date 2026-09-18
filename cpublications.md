@@ -24,8 +24,8 @@ permalink: /publications/
 ### Published
 {% assign paper_classes = "journal,conf" | split: "," %}
 {% for item in papers %}
-{% if paper_classes contains item.class %}
-* {{item.author}}, {% if item.doi %} [**"{{ item.title}}"**]({{item.doi}}), {% else %}"{{ item.title}}",{% endif %} *{{ item.venue}}*, {{item.year}}{% if item.preprint %}, ([Pre-print]({{site.url}}/{{site.baseurl}}/assets/pdf/{{item.preprint}})){% endif %}{% if item.arxiv %}, ([arXiv]({{item.arxiv}})){% endif %}.
+{% if paper_classes contains item.class and item.year >= 2018 %}
+* **[{{ item.year }} {{ item.class | capitalize }}]** {{item.author}}, {% if item.doi %} [**"{{ item.title}}"**]({{item.doi}}), {% else %}"{{ item.title}}",{% endif %} *{{ item.venue}}*, {{item.year}}{% if item.preprint %}, ([Pre-print]({{site.url}}/{{site.baseurl}}/assets/pdf/{{item.preprint}})){% endif %}{% if item.arxiv %}, ([arXiv]({{item.arxiv}})){% endif %}.
 {% endif %}
 {% endfor %}
 

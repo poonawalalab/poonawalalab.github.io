@@ -6,5 +6,6 @@ venue: IEEE International Performance, Computing, and Communications Conference
 year: 2025
 layout: page
 date: 2025-10-31
+doi: https://ieeexplore.ieee.org/document/11304640
 ---
 

@@ -14,6 +14,13 @@ We apply our methods to autonomous ground robots, robotic manipulation, and manu
 <p>More information can be found on our <a href="{{site.baseurl | prepend:site.url}}/research/" > research </a> page.</p>
 
 </div>
+
+<div>
+<video width="50%" autoplay muted loop playsinline>
+  <source src="{{ '/assets/videos/depth_hand_follow.mp4' | relative_url }}" type="video/mp4">
+</video>
+<p>Following a hand using a closed-form depth-to-velocity mapping</p>
+</div> 
 ![Reroute Routine]({{site.url}}/{{site.baseurl}}/assets/img/homefig.png)
 
 [//]:<p>Robotics and control experts have designed several algorithms to solve problems in this area (deep reinforcement learning, feedback linearization, model predictive control), however they rely on human validation in some form or the other before deployment. In deep reinforcement learning, humans have to develop a sensible reward function and validate the trained object, largely due to issues of reward hacking. In more control theoretic approaches, the human has to specify a Lyapunov function that proves system properties, or a control Lyapunov function that will yield the right control.</p>

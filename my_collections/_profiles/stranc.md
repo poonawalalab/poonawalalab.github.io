@@ -5,7 +5,6 @@ thumb: Harrison.jpg
 position: bs
 status: alumnus
 role: "Undergraduate Researcher"
-next_position: ""
 gradyear: 2021
 ---
 <div class="flex-container" >

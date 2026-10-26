@@ -19,7 +19,7 @@ permalink: /people/
 <div class = "flex-container">
 {% for item in site.profiles %}
   {% if item.status == "active" and item.position != "PI" %}
-  <div class = "thumby"><a href="{{ item.url | prepend:site.baseurl | prepend:site.url}}"><img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{ item.thumb}}" width = "170px" height = "170px"><p>{{ item.title }}</p><p>{{ item.role }} </p></a></div>
+  <div class = "thumby"><a href="{{ item.url | prepend:site.baseurl | prepend:site.url}}"><img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{ item.thumb}}" width = "170px" height = "170px">{{ item.title }}</a> <br>{{ item.role }}</div>
   {% endif %}
 {% endfor %}
 </div>
@@ -28,7 +28,8 @@ permalink: /people/
 <h3>Alumni:</h3>
 <div class = "flex-container">
 <ul>
-{% for item in site.profiles %}
+{% assign by_year = site.profiles | sort: "gradyear", "first" | reverse %}
+{% for item in by_year %}
 {% if item.position != "PI" %}
   {% if item.status == "alumnus" or item.status == "alum" %}
   <!--div class = "thumby"><a href="{{ item.url | prepend:site.baseurl | prepend:site.url}}"><img src = "{{ item.thumb}}" width = "170px" height = "170px"><p>{{ item.title }}</p></a> </div-->

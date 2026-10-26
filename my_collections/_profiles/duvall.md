@@ -5,7 +5,6 @@ thumb:
 position: ms
 status: alumnus
 role: "MS Student"
-next_position: ""
 gradyear: 2019
 ---
 <div class="flex-container" >

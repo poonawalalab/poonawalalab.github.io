@@ -4,8 +4,8 @@ layout: default
 position: ms
 status: active
 role: "MS Student"
-next_position: ""
-gradyear: ""
+next_position: 
+gradyear: 
 ---
 <div class="flex-container" >
  <div align="center"><img src="{{site.url}}/{{site.baseurl}}/assets/img/{{ page.thumb}}" alt="Pic" height="200px" width="200px" border="1px solid gray">

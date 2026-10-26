@@ -4,7 +4,7 @@ layout: default
 position: bs
 status: alumnus
 role: "Undergraduate Researcher"
-next_position: ""
+next_position: "Intel"
 gradyear: 2022
 ---
 <div class="flex-container" >

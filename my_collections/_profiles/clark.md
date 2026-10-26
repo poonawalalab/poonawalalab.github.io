@@ -5,7 +5,6 @@ thumb: Benton.jpeg
 position: phd
 status: alum
 role: "Ph.D. Student"
-next_position: ""
 gradyear: 2026
 ---
 <div class="flex-container" >

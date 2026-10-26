@@ -3,6 +3,9 @@ title: Bruno Tacchi
 layout: default
 position: ms
 status: none
+role: "Undergraduate Researcher"
+next_position: "UK Ph.D."
+gradyear: 2021
 ---
 <div class="flex-container" >
  <div align="center"><img src="{{site.url}}/{{site.baseurl}}/assets/img/{{ page.thumb}}" alt="Pic" height="200px" width="200px" border="1px solid gray">

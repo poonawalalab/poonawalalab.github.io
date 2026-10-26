@@ -3,6 +3,9 @@ title: Mukhil Ravichandran
 layout: default
 position: hs
 status: active
+role: "High School Intern"
+next_position: ""
+gradyear: ""
 ---
 <div class="flex-container" >
  <div align="center"><img src="{{site.url}}/{{site.baseurl}}/assets/img/{{ page.thumb}}" alt="Pic" height="200px" width="200px" border="1px solid gray">

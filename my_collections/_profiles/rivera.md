@@ -3,6 +3,9 @@ title: Gabriel Rivera
 layout: default
 position: bs
 status: alumnus
+role: "Undergraduate Researcher"
+next_position: ""
+gradyear: 2022
 ---
 <div class="flex-container" >
  <div align="center"><img src="{{site.url}}/{{site.baseurl}}/assets/img/{{ page.thumb}}" alt="Pic" height="200px" width="200px" border="1px solid gray">

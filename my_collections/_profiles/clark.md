@@ -4,6 +4,9 @@ layout: default
 thumb: Benton.jpeg
 position: phd
 status: alum
+role: "Ph.D. Student"
+next_position: ""
+gradyear: 2026
 ---
 <div class="flex-container" >
  <div align="center"><img src="{{site.url}}/{{site.baseurl}}/assets/img/{{ page.thumb}}" alt="Pic" height="200px" width="200px" border="1px solid gray">

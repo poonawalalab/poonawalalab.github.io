@@ -4,6 +4,10 @@ layout: default
 thumb:
 position: ms
 status: alumnus
+role: "MS Student"
+next_position: "National Air and Space Intelligence Center"
+gradyear: 2021
+
 ---
 <div class="flex-container" >
  <div align="center"><img src="page.thumb" alt="Pic" height="200px" width="200px" border="1px solid gray">

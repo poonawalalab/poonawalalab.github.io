@@ -2,7 +2,10 @@
 title: Karthika Hariprasad
 layout: default
 position: hs
-status: active
+status: alum
+role: "High School Intern"
+next_position: "Columbia University"
+gradyear: 2026
 ---
 <div class="flex-container" >
  <div align="center"><img src="{{site.url}}/{{site.baseurl}}/assets/img/{{ page.thumb}}" alt="Pic" height="200px" width="200px" border="1px solid gray">

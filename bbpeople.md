@@ -15,49 +15,15 @@ permalink: /people/
 </div>
 
 
-<h3>Ph.D Researchers:</h3>
+<h3>Lab Members:</h3>
 <div class = "flex-container">
 {% for item in site.profiles %}
-{% if item.position == "phd" %}
-  {% if item.status == "active" %}
-  <div class = "thumby"><a href="{{ item.url | prepend:site.baseurl | prepend:site.url}}"><img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{ item.thumb}}" width = "170px" height = "170px"><p>{{ item.title }}</p></a> </div>
+  {% if item.status == "active" and item.position != "PI" %}
+  <div class = "thumby"><a href="{{ item.url | prepend:site.baseurl | prepend:site.url}}"><img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{ item.thumb}}" width = "170px" height = "170px"><p>{{ item.title }}</p><p>{{ item.role }} </p></a></div>
   {% endif %}
-{% endif %}  
 {% endfor %}
 </div>
 
-<h3>MS Researchers:</h3>
-<div class = "flex-container">
-{% for item in site.profiles %}
-{% if item.position == "ms" %}
-  {% if item.status == "active" %}
-  <div class = "thumby"><a href="{{ item.url | prepend:site.baseurl | prepend:site.url}}"><img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{ item.thumb}}" width = "170px" height = "170px"><p>{{ item.title }}</p></a> </div>
-  {% endif %}
-{% endif %}  
-{% endfor %}
-</div>
-
-<h3>Undergraduate Researchers:</h3>
-<div class = "flex-container">
-{% for item in site.profiles %}
-{% if item.position == "bs" %}
-  {% if item.status == "active" %}
-  <div class = "thumby"><a href="{{ item.url | prepend:site.baseurl | prepend:site.url}}"><img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{ item.thumb}}" width = "170px" height = "170px"><p>{{ item.title }}</p></a> </div>
-  {% endif %}
-{% endif %}  
-{% endfor %}
-</div>
-
-<h3>High-School Researchers:</h3>
-<div class = "flex-container">
-{% for item in site.profiles %}
-{% if item.position == "hs" %}
-  {% if item.status == "active" %}
-  <div class = "thumby"><a href="{{ item.url | prepend:site.baseurl | prepend:site.url}}"><img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{ item.thumb}}" width = "170px" height = "170px"><p>{{ item.title }}</p></a> </div>
-  {% endif %}
-{% endif %}  
-{% endfor %}
-</div>
 
 <h3>Alumni:</h3>
 <div class = "flex-container">
@@ -66,7 +32,7 @@ permalink: /people/
 {% if item.position != "PI" %}
   {% if item.status == "alumnus" or item.status == "alum" %}
   <!--div class = "thumby"><a href="{{ item.url | prepend:site.baseurl | prepend:site.url}}"><img src = "{{ item.thumb}}" width = "170px" height = "170px"><p>{{ item.title }}</p></a> </div-->
-  <div><li> {{item.title}} </li> </div>
+  <li> {{item.title}}, {{item.role}}, {{item.gradyear}}{% if item.next_position %}, Next: {{ item.next_position }}{% endif %} </li> 
   {% endif %}
 {% endif %}  
 {% endfor %}

@@ -4,6 +4,9 @@ layout: default
 position: phd
 status: alum
 thumb: Pouya_S.jpg
+role: "Ph.D. Student"
+next_position: "Post-doc, Dept of Mining, UKy"
+gradyear: 2025
 ---
 <div class="flex-container" >
  <div align="center"><img src="{{site.url}}/{{site.baseurl}}/assets/img/{{ page.thumb}}" alt="Pic" height="200px" width="200px" border="1px solid gray">

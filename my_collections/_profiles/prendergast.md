@@ -3,6 +3,10 @@ title: Jack Prendergast
 layout: default
 position: hs
 status: alumnus
+role: "High School Intern"
+next_position: "University of Kentucky"
+gradyear: 2024
+
 ---
 <div class="flex-container" >
  <div align="center"><img src="{{site.url}}/{{site.baseurl}}/assets/img/{{ page.thumb}}" alt="Pic" height="200px" width="200px" border="1px solid gray">

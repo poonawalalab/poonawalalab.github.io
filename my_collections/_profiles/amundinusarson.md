@@ -2,6 +2,9 @@
 title: Aevar Amundinusarson
 layout: default
 position: ms
+role: "MS Researcher"
+next_position: "Blue Lagoon Iceland"
+gradyear: 2025
 status: alum
 ---
 <div class="flex-container" >

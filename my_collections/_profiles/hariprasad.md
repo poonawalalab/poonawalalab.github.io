@@ -3,6 +3,9 @@ title: Varun Hariprasad
 layout: default
 position: hs
 status: alumnus
+role: "High School Intern"
+next_position: "Mass. Inst. Tech."
+gradyear: 2023
 ---
 <div class="flex-container" >
  <div align="center"><img src="{{site.url}}/{{site.baseurl}}/assets/img/{{ page.thumb}}" alt="Pic" height="200px" width="200px" border="1px solid gray">

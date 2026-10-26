@@ -4,7 +4,6 @@ layout: default
 position: bs
 status: alumnus
 role: "Undergraduate Researcher"
-next_position: ""
 gradyear: 2024
 ---
 <div class="flex-container" >

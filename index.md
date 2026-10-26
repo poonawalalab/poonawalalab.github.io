@@ -19,7 +19,7 @@ We apply our methods to autonomous ground robots, robotic manipulation, and manu
 
 <div>
 <p>Video: Following a hand using a closed-form depth-to-velocity mapping</p>
-<video width="25%" autoplay muted loop playsinline>
+<video width="50%" autoplay muted loop playsinline>
   <source src="{{ '/assets/videos/depth_hand_follow.mp4' | relative_url }}" type="video/mp4">
 </video>
 </div> 

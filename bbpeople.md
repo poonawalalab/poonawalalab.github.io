@@ -33,7 +33,7 @@ permalink: /people/
 {% if item.position != "PI" %}
   {% if item.status == "alumnus" or item.status == "alum" %}
   <!--div class = "thumby"><a href="{{ item.url | prepend:site.baseurl | prepend:site.url}}"><img src = "{{ item.thumb}}" width = "170px" height = "170px"><p>{{ item.title }}</p></a> </div-->
-  <li> {{item.title}}, {{item.role}}, {{item.gradyear}}{% if item.next_position %}, Next: {{ item.next_position }}{% endif %} </li> 
+  <li class="alum-{{ item.role | slugify }}"> {{item.title}}, {{item.role}}, {{item.gradyear}}{% if item.next_position %}, Next: {{ item.next_position }}{% endif %} </li> 
   {% endif %}
 {% endif %}  
 {% endfor %}

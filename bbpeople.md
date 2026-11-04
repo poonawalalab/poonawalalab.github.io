@@ -3,6 +3,12 @@ layout: research
 title: People
 permalink: /people/
 ---
+<style>
+.alum-ph-d-researcher           { color: #1f4e9c; }
+.alum-ms-researcher            { color: #2e7d32; }
+.alum-undergraduate-researcher { color: #b35c00; }
+.alum-high-school-intern  { color: #7b1fa2; }
+</style>
 <!-- See  <a href="{{site.baseurl | prepend:site.url}}/people/#labopenings"> below </a> for openings. --> 
 
 <h3>Principal Investigator:</h3>
